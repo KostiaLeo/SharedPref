@@ -12,14 +12,14 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    EditText login, password;
-    Button login_btn;
-    SharedPreferences info, info1;
+    private EditText login, password;
+    private Button login_btn;
+    private SharedPreferences info, info1;
 
-    final String SAVE_LOGIN = "save login";
-    final String SAVE_PASS = "save pass";
+    private final String SAVE_LOGIN = "save login";
+    private final String SAVE_PASS = "save pass";
 
-    String login_info, pass_info, savedPass, savedLog;
+    private String login_info, pass_info, savedPass, savedLog;
 
 
 //----------------------------------------------------------------------------------

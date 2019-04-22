@@ -12,11 +12,11 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    TextView login;
-    Button exit;
-    SharedPreferences info;
-    String log;
-    final String SAVE_LOGIN = "save login";
+    private TextView login;
+    private Button exit;
+    private SharedPreferences info;
+    private String log;
+    private final String SAVE_LOGIN = "save login";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
